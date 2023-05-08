@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.theList {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.task {
+  width: 100%;
+  height: 3rem;
+  border: 0.1rem black solid;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  background-color: lightgray;
+  display: flex;
+  border-radius: 1rem;
+  justify-content: space-between;
+}
+
+.updateSection {
+  display: flex;
+}
+
+.numTask {
+  width: 2rem;
+}
